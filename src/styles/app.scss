@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+p,
+svg {
+  color: #3a3a47;
+}
+
+h3,
+h4,
+a {
+  color: #6c6c74;
+}
+
+body {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.library-opened {
+  margin-left: 20%;
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
