@@ -5,7 +5,7 @@ const Footer = () => {
     <div
       style={{
         bottom: 0,
-        height: "10vh",
+        height: "9vh",
         marginBottom: "0.2rem",
         display: "flex",
         justifyContent: "center",
