@@ -1,5 +1,7 @@
 # React Music App
 
+[Go to App](https://musichop.netlify.app/)
+
 Made by [Jayraj Shah](https://jayrajshah.github.io/).
 
 ## Attributions

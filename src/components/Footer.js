@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <div
       style={{
-        position: "absolute",
         bottom: 0,
-        width: "100%",
+        height: "10vh",
         marginBottom: "0.2rem",
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <h4>
