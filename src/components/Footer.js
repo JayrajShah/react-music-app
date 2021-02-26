@@ -2,16 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div
-      style={{
-        bottom: 0,
-        height: "9vh",
-        marginBottom: "0.2rem",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className="footer">
       <h4>
         Made with ❣ by{" "}
         <a href="https://jayrajshah.github.io/" target="_blank">

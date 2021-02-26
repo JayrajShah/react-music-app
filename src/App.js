@@ -21,6 +21,7 @@ const App = () => {
   });
   const [autoplay, setAutoplay] = useState(false);
   const [libraryOpen, setLibraryOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   //Handlers
   const songLoadedHandler = () => {
@@ -56,8 +57,16 @@ const App = () => {
 
   const audioRef = useRef(null);
   return (
-    <div className={`App ${libraryOpen ? "library-opened" : ""}`}>
-      <Nav libraryOpen={libraryOpen} setLibraryOpen={setLibraryOpen} />
+    <div
+      className={`App ${libraryOpen ? "library-opened" : ""} `}
+      data-theme={isDark ? "dark" : "light"}
+    >
+      <Nav
+        libraryOpen={libraryOpen}
+        setLibraryOpen={setLibraryOpen}
+        isDark={isDark}
+        setIsDark={setIsDark}
+      />
       <Song currentSong={currentSong} />
       <Player
         allSongs={songs}

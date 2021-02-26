@@ -3,7 +3,6 @@ import React from "react";
 const LoaderSVG = () => {
   const DURATION = "1.0s";
   const OFFSET = 0.2; //apply --> .toStirng() + "s"
-  const FILL = "#27282e";
   return (
     <div>
       <svg
@@ -20,7 +19,7 @@ const LoaderSVG = () => {
         xmlSpace="preserve"
         // xml:space="preserve"
       >
-        <rect x="20" y="50" width="4" height="10" fill={FILL}>
+        <rect x="20" y="50" width="4" height="10">
           <animateTransform
             attributeType="xml"
             attributeName="transform"
@@ -31,7 +30,7 @@ const LoaderSVG = () => {
             repeatCount="indefinite"
           />
         </rect>
-        <rect x="30" y="50" width="4" height="10" fill={FILL}>
+        <rect x="30" y="50" width="4" height="10">
           <animateTransform
             attributeType="xml"
             attributeName="transform"
@@ -42,7 +41,7 @@ const LoaderSVG = () => {
             repeatCount="indefinite"
           />
         </rect>
-        <rect x="40" y="50" width="4" height="10" fill={FILL}>
+        <rect x="40" y="50" width="4" height="10">
           <animateTransform
             attributeType="xml"
             attributeName="transform"

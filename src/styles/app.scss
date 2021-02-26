@@ -3,23 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import "./variables";
+
+// .App {
+//   --primary: #fff;
+//   --contrast200: #3a3a47;
+//   --contrast100: #6c6c74;
+// }
+// .App[data-theme="dark"] {
+//   --primary: rgb(255, 255, 255);
+//   --contrast200: #3a3a47;
+//   --contrast100: #6c6c74;
+// }
+
 h1,
 h2,
 p,
 svg {
-  color: #3a3a47;
+  color: var(--contrast200);
 }
 
 h3,
 h4,
 a {
-  color: #6c6c74;
+  color: var(--contrast100);
 }
 
 body {
   font-family: "Abril Fatface", cursive;
   letter-spacing: 0.1rem;
   font-weight: 100;
+  background-color: var(--primary);
 }
 
 .App {
@@ -34,3 +48,4 @@ body {
 @import "./song";
 @import "./library";
 @import "./nav";
+@import "./footer";

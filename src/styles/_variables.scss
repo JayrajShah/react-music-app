@@ -1,0 +1,16 @@
+.App {
+  --primary: #fff;
+  --contrast200: #3a3a47;
+  --contrast100: #6c6c74;
+  --shadow: #b9b9b9;
+  --library-select-hover: #d8d8d8;
+  --library-select-active: #c4d4e6;
+}
+.App[data-theme="dark"] {
+  --primary: #262e3b;
+  --contrast200: #e4edfa;
+  --contrast100: #bec4d3;
+  --shadow: #23252c;
+  --library-select-active: #455766;
+  --library-select-hover: #2a3c4d;
+}

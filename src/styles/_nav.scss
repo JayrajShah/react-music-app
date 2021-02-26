@@ -3,25 +3,46 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--primary);
   button {
     background: transparent;
     cursor: pointer;
-    border: 2px solid #3a3a47;
+    border: 2px solid var(--contrast200);
     padding: 0.5rem;
     font-family: "Abril Fatface", cursive;
     letter-spacing: 0.1rem;
     font-weight: 100;
     transition: all 0.3s ease;
+    color: var(--contrast200);
     svg {
       transition: all 0.3s ease;
     }
     &:hover {
-      background: #3a3a47;
-      color: #fff;
+      background: var(--contrast200);
+      color: var(--primary);
       svg {
-        color: #fff;
+        color: var(--primary);
       }
     }
+  }
+}
+
+.nav-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    $bg: var(--contrast100);
+    background-color: rgba($bg, 0.6);
   }
 }
 

@@ -1,0 +1,10 @@
+// @import "./variables";
+
+.footer {
+  bottom: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+}
